@@ -13,7 +13,7 @@ sales insight dashboard
 
 This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
-![bar plot](https://github.com/Irene-arch/Documenting_Example/assets/56026296/5ebedeb8-65e4-4f09-a2a5-0699119f5ff7)
+![bar plot](https://github.com/sudeshna999/power_bi_project_2/blob/main/Screenshot%20(4).png)
 
 
 ### Data Sources
