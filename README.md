@@ -1,73 +1,108 @@
-# power_bi_project_2
-sales insight dashboard
-# E-Commerce Sales Analysis
+# Sales Insight Power BI Dashboard
 
-## Table of Contents
+Sales Insight Power BI Dashboard
 
-- [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Recommendations](#recommendations)
+📌 Project Overview
 
-### Project Overview
----
+This project involves designing an interactive Power BI dashboard to analyze sales performance, track key performance indicators (KPIs), and enhance stakeholder decision-making. The dashboard integrates data from multiple sources, streamlining ETL (Extract, Transform, Load) processes to deliver actionable insights.
 
-This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+🚀 Features
 
-![bar plot](https://github.com/sudeshna999/power_bi_project_2/blob/main/Screenshot%20(4).png)
+📊 Comprehensive KPI Tracking: Monitors revenue, sales trends, and customer behavior.
 
+🔄 Data Integration: Combines data from multiple sources for a holistic view.
 
-### Data Sources
+⚡ Optimized ETL Pipeline: Cleans, transforms, and loads data efficiently.
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+📈 Dynamic Visualizations: Interactive charts, graphs, and filters for better analysis.
 
-### Tools
+📢 Stakeholder-Focused Reports: Provides clear and impactful insights for business growth.
 
-- Excel - Data Cleaning
-- SQL Server - Data Analysis
-- PowerBI - Creating reports
+🛠 Tech Stack
 
+Power BI - For data visualization and dashboard creation.
 
-### Data Cleaning/Preparation
+SQL Server - For querying and manipulating data.
 
-In the initial data preparation phase, we performed the following tasks:
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
+Excel - For data cleaning and preprocessing.
 
-### Exploratory Data Analysis
+ETL Pipelines - For data extraction, transformation, and loading.
 
-EDA involved exploring the sales data to answer key questions, such as:
+📷 Dashboard Preview
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
-
-### Data Analysis
-
-Include some interesting code/features worked with
-
-```sql
-SELECT * FROM table1
-WHERE cond = 2;
-```
-
-### Results/Findings
-
-The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
-
-### Recommendations
-
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
-
-### Limitations
-
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
+![image](https://github.com/user-attachments/assets/19b241f8-1a7e-4d14-8a4e-c1a2fd7fe016)
 
 
+📂 Project Workflow
+
+Data Collection: Gathered sales data from multiple sources (databases, spreadsheets, APIs).
+
+ETL Process: Cleaned and transformed data using SQL and Power BI’s Power Query.
+
+Data Modeling: Created relationships between datasets for structured analysis.
+
+Dashboard Development: Designed interactive visuals and filters for enhanced insights.
+
+Performance Optimization: Applied best practices to improve efficiency.
+
+Deployment & Sharing: Published the dashboard for stakeholder access.
+
+🔍 Exploratory Data Analysis
+
+Key questions explored in this project:
+
+What are the sales trends over time?
+
+Which products and categories perform the best?
+
+What are the peak sales periods?
+
+🔢 Data Analysis
+
+Example SQL query used in the project:
+
+SELECT category, SUM(sales) AS total_sales
+FROM sales_data
+GROUP BY category
+ORDER BY total_sales DESC;
+
+🔥 Insights & Impact
+
+Sales trends: The company’s sales have shown a steady increase over the past year, with spikes during festive seasons.
+
+Top-selling products: Certain product categories significantly outperform others.
+
+Customer segmentation: High-value customers contribute to a large portion of revenue.
+
+📌 Recommendations
+
+Increase marketing efforts during peak sales seasons.
+
+Focus on expanding and promoting high-performing product categories.
+
+Implement targeted strategies for high-value customers to maximize retention.
+
+⚠️ Limitations
+
+Some missing values and outliers were handled to maintain data integrity.
+
+Data from certain periods may not fully represent long-term trends.
+
+📌 How to Use
+
+Open the Power BI file (.pbix).
+
+Connect the data sources (or use sample data provided).
+
+Refresh the data and explore insights using interactive filters.
+
+📞 Contact & Contributions
+
+💡 Have feedback or suggestions? Feel free to reach out!
+
+If you find this project useful, consider giving it a ⭐ and feel free to fork it!
+
+Author:Sudeshna Dey 📧 sudeshnadey1000@gmail.com 🔗 https://www.linkedin.com/in/sudeshna-dey-724a811a0/ 
+
+This project highlights the power of data-driven decision-making, helping businesses optimize sales strategies efficiently.
 
